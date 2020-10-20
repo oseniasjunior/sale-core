@@ -263,7 +263,7 @@ class ProductGroup(ModelBase):
         null=False,
         unique=True
     )
-    percentage_comission = models.DecimalField(
+    percentage_commission = models.DecimalField(
         max_digits=16,
         decimal_places=2,
         null=False
